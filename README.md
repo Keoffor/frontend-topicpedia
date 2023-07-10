@@ -60,7 +60,7 @@ This page displays the list of search results for users after a topic is enter i
 
 ## Overview
 
-Topicpedia-backend Service is responsible for handling all requests from the frontend client app. When users interact with the client app, it returns response to client based on the input.
+Topicpedia-backend Service is responsible for handling all requests from the frontend client app. When users interact with the client app, it returns response based on the input.
 
 ## Technologies
 
