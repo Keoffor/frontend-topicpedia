@@ -1,27 +1,83 @@
-# TopicpediaUi
+# ![logo image](readme-pics/topicpedia-logo.png)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6 and [Spring Boot](https://start.spring.io) version 2.7.13
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+## Description
+Topicpedia is Search engine application that is desigend to help users find information on the internet.
+When a user enters a search query (topic), Topipedia quickly scans its index of web pages to find the most relevant and useful results
 
-## Development server
+## Technology Stacks
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Java
+- Angular 15
+- Angular Material
+- Spring Boot
+- Typescript
+- HTML
+- Boostrap
+- CSS
+- NodeJS
+- Docker
+- Kubenetes
+- AWS EKS
+- AWS EC2
+- TLS/SSL (self singed certificate)
+## Environment:
+    -Spring boot Framework
+    -JDK 17
+    -IntelliJ
+    -VS Code
 
-## Code scaffolding
+## Components
+### HomepageComponent
+-> This component contains the home page: the first thing the user sees on the site
+![homepage](readme-pics/frontpage.png)
+This is the home page where users can enter topic as input.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Search Topic Component
+![Search-topic](readme-pics/search-result.png)
+This page displays the list of search results for users after a topic is enter in the search bar.
 
-## Build
+### Topic-Page Component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Topic-page](readme-pics/search-page.png)
+-> This page provides full details of a specific topic/title from the search result list.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
+### Local environment set-up
+- git clone `https://github.com/Keoffor/topicpedia-frontend.git` and move into its folder
+- Run `npm install -g @angular/cli` to install the Angular CLI
+- cd to the project folder - topicpedia
+- Run `npm install` to install all dependencies.
+- Run `npm start` to launch project and hit on the provided url link `http://localhost:4200/`. to lanuch the app in your browser.
+- Create a new folder for the backend repo, move into this folder, and run git clone `https://github.com/Keoffor/topicpedia-backend.git`
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Open your favorite IDE and run the topicpedia-backend service
 
-## Further help
+# Topicpedia Backend Service
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Overview
+
+Topicpedia-backend Service is responsible for handling all requests from the frontend client app, when a user interact with the client app. It returns response to client according to the request.
+
+## Technologies
+
+- Java (v.17)
+- Spring Boot
+- Lombok
+- JUnit
+- Slf4J
+- Maven
+- Wikipedia API
+- JUnit4
+- Mockito
+- Lombok
+- Docker
+- Kubernetes
+
+## Getting Started with Topicpedia-backend
+
+1. Clone repo from `https://github.com/Keoffor/topicpedia-backend.git`
+
+2. Open in IDE of your choice to launch the service in port 8080
