@@ -88,7 +88,7 @@ Topicpedia-backend Service is responsible for handling all requests from the fro
 ## Accessing the Application on the Internet
 Users can access the app on the internet using this url - [topicpedia.kendo.vip](https://topicpedia.kendoc.vip)
 
-The app is deployed on https with an Nginx Ingress Controller. A self signed Certificate was used for the TLS data encrpytion configuration.
+The app is deployed on https with an Nginx Ingress Controller. A self-signed Certificate was used for the TLS data encrpytion configuration.
 
-`Note:` The infrastructure used to deploy this app on the internet is personal managed hence it may not be running at all times as a production grade infrastructure. 
+`Note:` The infrastructure used to deploy this app on the internet is individually managed hence it may not be running at all times as a production grade infrastructure. 
 
