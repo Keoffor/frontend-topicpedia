@@ -60,7 +60,7 @@ This page displays the list of search results for users after a topic is enter i
 
 ## Overview
 
-Topicpedia-backend Service is responsible for handling all requests from the frontend client app. When users interact with the client app, it returns response based on the input.
+Topicpedia-backend Service is responsible for handling all requests from the frontend client app. When users interact with the client app, the backend service returns response based on the input.
 
 ## Technologies
 
@@ -86,7 +86,7 @@ Topicpedia-backend Service is responsible for handling all requests from the fro
 
 
 ## Accessing the Application on the Internet
-Users can access the app on the internet using this url - [topicpedia](https://topicpedia.kendoc.vip) `https://topicpedia.kendoc.vip`
+Users can access the app on the internet using this url - [topicpedia.kendo.vip](https://topicpedia.kendoc.vip)
 
 The app is deployed on https with an Nginx Ingress Controller. A self signed Certificate was used for the TLS data encrpytion configuration.
 
