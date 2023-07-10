@@ -1,0 +1,25 @@
+<div class="container mt-5">
+    <div class="mb-4 row justify-content-center log">
+        Topicpedia
+    </div>
+
+<div class="container mt-5" >
+    <div class="row">
+    <div class="col align-self-start">
+        
+      </div>
+      <div class="mb-4 row justify-content-center">
+        
+        <mat-form-field appearance="outline" color="warn"  class="w-50" [style.height.px]=60 style="border: 2px solid green;">
+            <!-- <span matPrefix> </span> -->
+        <input matInput [(ngModel)]="searchInput"
+                name="searchkey"
+                id="searchkey"
+                placeholder="Search any topic" class="search">
+            <button type="button" matTextSuffix color="warn" mat-icon-button (click)="submitTopic()"><mat-icon ><span style="font-size: 1.7rem;">search</span></mat-icon></button>
+        </mat-form-field>
+
+       
+    </div>
+</div>
+</div>

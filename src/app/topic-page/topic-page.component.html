@@ -1,0 +1,29 @@
+<a></a>
+<div class="container mt-5">
+    <div class="row">
+          <div class="col log">
+            <mat-card class="example-card" >
+                <mat-card-header>
+          
+                    <mat-card-title style="font-size: 2rem; margin-bottom: 1rem;">{{title}}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content style="font-size: 1rem;">
+                <p>
+                 {{extracts}}
+                </p>
+                </mat-card-content>
+            
+             </mat-card>
+        </div>
+        <div class="col log">
+            <img mat-card-image src="{{source}}" alt="page photo">
+        </div>
+    </div>
+    <div class="row" style="margin-top: 2rem;">
+        <div class="col"><button mat-raised-button color="warn" routerLink="/search-topic/{{title}}">Return to search results</button></div>
+        <div class="col"></div>
+        
+    </div>
+</div>
+    
+   

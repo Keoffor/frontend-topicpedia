@@ -1,0 +1,30 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+
+mat-form-field ::ng-deep input {
+    height: 70px;
+    color: blueviolet !important;
+  }
+.search{
+    caret-color: rgb(193, 18, 18);
+    color: rgb(193, 18, 18) !important;
+}
+mat-form-field .custom-mat-form-field{
+    color:green;
+    border: 4px solid rgb(4, 128, 0)  !important;
+}
+
+.mb-4 mat-form-field {
+    border: 1px solid rgb(193, 18, 18)  !important;
+    border-radius:4rem ;
+    overflow: hidden;
+   
+}
+.log{
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(193, 18, 18);
+    margin-top: 10rem;
+}  
