@@ -12,6 +12,7 @@ When a user enters a search query (topic), Topipedia quickly scans its index of 
 - Angular Material
 - Spring Boot
 - Typescript
+- Nginx server
 - HTML
 - Boostrap
 - CSS
@@ -81,3 +82,10 @@ Topicpedia-backend Service is responsible for handling all requests from the fro
 1. Clone repo from `https://github.com/Keoffor/topicpedia-backend.git`
 
 2. Open in IDE of your choice to launch the service in port 8080
+
+## Access the Application on the Internet
+Users can access with the app on the internet using this url - [topicpedia](https://topicpedia.kendoc.vip) `https://topicpedia.kendoc.vip`
+`The app is deployed on https with an Nginx Ingress Controller. A self signed Certificate was used for the TLS data encrpytion configuration.
+
+`Note:` The infrastructure used to deploy this app on the internet is personal managed hence it may not running at all times as a production grade infrastructure. 
+
