@@ -2,8 +2,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6 and [Spring Boot](https://start.spring.io) version 2.7.13
 
 ## Description
-Topicpedia is Search engine application that is desigend to help users find information on the internet.
-When a user enters a search query (topic), Topipedia quickly scans its index of web pages to find the most relevant and useful results
+Topicpedia is Search engine application that is designed to help users find information on the internet.
+When a user enters a search query (topic), Topicpedia quickly scans its index of web pages to find the most relevant and useful results
 
 ## Technology Stacks
 
@@ -60,7 +60,7 @@ This page displays the list of search results for users after a topic is enter i
 
 ## Overview
 
-Topicpedia-backend Service is responsible for handling all requests from the frontend client app, when a user interact with the client app. It returns response to client according to the request.
+Topicpedia-backend Service is responsible for handling all requests from the frontend client app. When users interact with the client app, it returns response to client based on the input.
 
 ## Technologies
 
@@ -83,9 +83,12 @@ Topicpedia-backend Service is responsible for handling all requests from the fro
 
 2. Open in IDE of your choice to launch the service in port 8080
 
-## Access the Application on the Internet
-Users can access with the app on the internet using this url - [topicpedia](https://topicpedia.kendoc.vip) `https://topicpedia.kendoc.vip`
-`The app is deployed on https with an Nginx Ingress Controller. A self signed Certificate was used for the TLS data encrpytion configuration.
+
+
+## Accessing the Application on the Internet
+Users can access the app on the internet using this url - [topicpedia](https://topicpedia.kendoc.vip) `https://topicpedia.kendoc.vip`
+
+The app is deployed on https with an Nginx Ingress Controller. A self signed Certificate was used for the TLS data encrpytion configuration.
 
 `Note:` The infrastructure used to deploy this app on the internet is personal managed hence it may not running at all times as a production grade infrastructure. 
 
