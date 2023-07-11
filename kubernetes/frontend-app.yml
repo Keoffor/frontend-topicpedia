@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: topicpedia-frontend
-          image: keoffor/topicpedia-frontend:v1
+          image: keoffor/topicdepia-frontend:v1
           imagePullPolicy: Always
           ports:
             - name: frontend-port

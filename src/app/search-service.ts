@@ -11,7 +11,7 @@ import { PageDto } from './PageDto';
 export class SearchServiceService {
 
   constructor(private httpClient: HttpClient) { }
-  baseUrl = environment.BACKEND_LOCAL;
+  baseUrl = environment.BACKEND_CLOUD_URI;
 
   searchTopic(topic: string): Observable<Array<SearchDto>>{
     return this.httpClient.get<Array<SearchDto>>(this.baseUrl+"/api/search?topic="+topic)
